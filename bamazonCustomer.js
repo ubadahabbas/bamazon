@@ -73,6 +73,7 @@ function start() {
                                 console.log("------------------------------------------")
                             }
                         );
+                        connection.query(`UPDATE products SET product_sales = ${totalCost} WHERE id = ${productID}`)
                         connection.end();
                     } else {
                         console.log("Quantity available is: " + results[i].stock_quantity);
