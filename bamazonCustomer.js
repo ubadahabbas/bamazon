@@ -73,8 +73,10 @@ function start() {
                                 console.log("------------------------------------------")
                             }
                         );
+                        connection.end();
                     } else {
                         console.log("Quantity available is: " + results[i].stock_quantity);
+                        connection.end();
                     }
                 }
             }

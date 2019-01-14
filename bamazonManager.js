@@ -45,6 +45,7 @@ inquirer.prompt([{
                 console.log("--------------------------------------------")
             }
         })
+        connection.end();
 
     }
 
@@ -62,6 +63,7 @@ inquirer.prompt([{
                 }
             }
         })
+        connection.end();
 
     };
 
@@ -102,6 +104,7 @@ inquirer.prompt([{
                         if (err) throw err;
                         console.log("Inventory Updated")
                         console.log("New Inventroty is: "+  newInv)
+                        connection.end();
                     })
 
                 })
@@ -142,6 +145,7 @@ inquirer.prompt([{
                     if (err) throw err;
                     console.log(answer)
                     console.log("Product added successfully")
+                    connection.end();
                 })
             })
 
