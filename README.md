@@ -12,4 +12,7 @@ Manager is able to
 - Add to inventory
 - Add new product
 
+Here's a video of the app:
+https://drive.google.com/file/d/1S_CjHRv_nJWuOa2-3WXOba4rJyq2-ZQR/view
+
 **George Washington Coding Bootcamp.**
